@@ -9,8 +9,8 @@ Here we will scale the custom web application to multiple containers. For this w
 - Run command
   - /usr/bin/docker-compose -f docker-compose.yml up 
   - docker container ls -a [This should list 3 containers: app_web_1, app_lb_1 and sample_db]
-- Test application: [Public IP of EC2 instance]:8080/data/userForms
+- Test application: [Public IP of EC2 instance]:80/data/userForms
 - Scale the web application container to 3 instances
   - docker-compose scale web=3
   - docker container ls -a [This should list 5 containers: 3 instances of app_web, app_lb_1 and sample_db]
-- Test application: [Public IP of EC2 instance]:8080/data/userForms 
+- Test application: [Public IP of EC2 instance]:80/data/userForms 
