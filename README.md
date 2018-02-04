@@ -1,5 +1,5 @@
-## Multi-container app using Docker Compose
-This sample shows how Docker Compose can be used for multi container app. Two containers include 1) Sprintboot based business logic 2) Postgres DB
+## Scale multi-container application using Docker Compose
+This sample shows how Docker Compose can be used to scale multi container application using HAProxy. Its an extension of Docker Compose sample (https://github.com/brijesh-deb/docker-compose-sample).  
 
 ### Local deployment
 - Download this sample SpringBoot application
