@@ -5,7 +5,7 @@ Here we will scale the custom web application to multiple containers. For this w
 
 ### Steps to deploy
 - Follow steps in earlier Docker Compose sample (https://github.com/brijesh-deb/docker-compose-sample) to download, create image and deploy  application.
-- Download docker-compose.yml and overwrite existing docker-compose.yml in the sample.
+- Download docker-compose.yml in the repo and overwrite existing docker-compose.yml in the sample.
 - Run command
   - /usr/bin/docker-compose -f docker-compose.yml up 
   - docker container ls -a [This should list 3 containers: app_web_1, app_lb_1 and sample_db]
